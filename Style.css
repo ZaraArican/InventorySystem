@@ -1,0 +1,77 @@
+div.container {
+    width: 100%;
+    
+    }
+    header{ 
+    padding: 1em;
+    color: black;
+    background-color: pink;
+    clear: left;
+    text-align: center;
+    }
+    footer{ 
+        padding: 1em;
+        color: black;
+        background-color: pink;
+        clear: right;
+        text-align: center;
+        }
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    }
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .topnav a:hover {
+    background-color: #8b0000;
+    color: white;
+    }
+    .topnav a.active {
+    background-color: #8b0000;
+    color: white;
+    }
+    nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    }
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    nav ul a {
+    text-decoration: none;
+    }
+    article {
+    margin-left: 170px;
+    overflow: hidden;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    background-color: #ffffff;
+    }
+    li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    li a.active {
+    background-color: #8b0000;
+    color: white;
+    }
+    li a:hover:not(.active) {
+    background-color: #8b0000;
+    color: white;
+    }
+ 
